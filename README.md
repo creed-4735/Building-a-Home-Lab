@@ -46,8 +46,6 @@ My goal is to build a personal cybersecurity homelab that simulates real-world e
 - 4. Install Splunk
 
   Splunk will act as the secuirty informantion and event management (SIEM) tool. This tool will allow me to simulate an enterpirse environment by managing log files for analysis, detect possible secuirty threats, track performance metrics, and generate dashboards/reports for data insights.
-![Step 4](https://github.com/user-attachments/assets/711f36e1-e849-4771-9130-7bdbca2703c0)
-
 
   <img src="https://github.com/user-attachments/assets/711f36e1-e849-4771-9130-7bdbca2703c0" width="600">
 
