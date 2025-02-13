@@ -26,4 +26,5 @@ My goal is to build a personal cybersecurity homelab that simulates real-world e
 
   Install Virtual Box along with all necessary dependencies to include python core and win-32-api for full functionality.
 
-  <img src="https://github.com/user-attachments/assets/bce2e7e4-e7cd-4438-903b-d02b45e20cd3" width="600">
+
+  <img src="https://github.com/user-attachments/assets/95ad53f0-2b62-4d82-a817-8358f676238f" width="600">
