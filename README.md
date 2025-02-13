@@ -22,9 +22,16 @@ My goal is to build a personal cybersecurity homelab that simulates real-world e
 
 ## Steps
 
-- 1 Install VirtualBox,
+- 1 Install VirtualBox:
 
   Install Virtual Box along with all necessary dependencies to include python core and win-32-api for full functionality.
 
 
   <img src="https://github.com/user-attachments/assets/95ad53f0-2b62-4d82-a817-8358f676238f" width="600">
+
+- 2 Install Windows 11 into VirtualBox:
+
+  Download the Windows 11 iso image from a secure source. Configure Windows 11 inside of VirtualBox by paying attention to the available resources of your host system and the requirements of the iso image. 
+
+  
+    <img src="https://github.com/user-attachments/assets/13012569-4e51-4bab-a657-5db89ea590a7" width="600">
