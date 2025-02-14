@@ -19,9 +19,13 @@ My goal is to build a personal cybersecurity homelab that simulates real-world e
 - VirtualBox
 - Windows 11 iso image
 - Kali Linux
+- Splunk
+- Windows Sysmon
 
 
 ## Steps
+
+Part 1 - Setting Up The Virtual Enviornment
 
 - 1. Install VirtualBox:
 
@@ -49,11 +53,23 @@ My goal is to build a personal cybersecurity homelab that simulates real-world e
 
   <img src="https://github.com/user-attachments/assets/711f36e1-e849-4771-9130-7bdbca2703c0" width="600">
 
+Part 2 - Simulating an Attack utilizing Kali Linux:
+
+- 1. Network Security:
+
+Ensure that the Kali Linux and Windows virtual machines are in their own internal network and statically assign each IP address. This ensures that each virtual machine has connectivity to each other, but not to the internet; keeping the network as a whole safe from malware.
+
+  <img src="https://github.com/user-attachments/assets/eecd058c-af1e-4219-ad81-3265d4407c67" width="600">
+
+  <img src="https://github.com/user-attachments/assets/3f2013ba-b76e-4218-874e-7900e5efec91" width="600">
 
 
+- 2. Perform a Target Scan:
+
+  Use "nmap -A "target-IP" -Pn" to perform a comprehensive assessment of the target system. In this scenario, conducting this scan will detect any possible open ports on the target device.
 
 
-
+   <img src="https://github.com/user-attachments/assets/a1b4a9e0-8148-4137-aae9-370c91066c0d" width="600">
 
 
 
