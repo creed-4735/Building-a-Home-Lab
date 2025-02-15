@@ -53,7 +53,7 @@ Part 1 - Setting Up The Virtual Enviornment
 
   <img src="https://github.com/user-attachments/assets/711f36e1-e849-4771-9130-7bdbca2703c0" width="600">
 
-Part 2 - Simulating an Attack utilizing Kali Linux:
+Part 2 - Simulating an Basic Attack utilizing Kali Linux:
 
 - 1. Network Security:
 
@@ -66,7 +66,7 @@ Ensure that the Kali Linux and Windows virtual machines are in their own interna
 
 - 2. Perform a Target Scan:
 
-  Use "nmap -A "target-IP" -Pn" to perform a comprehensive assessment of the target system. In this scenario, conducting this scan will detect any possible open ports on the target device.
+  Use "nmap -A 'target-IP' -Pn" to perform a comprehensive assessment of the target system. In this scenario, conducting this scan will detect any open ports on the target device.
 
 
    <img src="https://github.com/user-attachments/assets/a1b4a9e0-8148-4137-aae9-370c91066c0d" width="600">
