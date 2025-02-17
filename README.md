@@ -86,7 +86,7 @@ Use the "msfconsole" command.
 
 <img src="https://github.com/user-attachments/assets/1d1f7c79-84fe-4cc7-ba86-c9c9d91b68f2" width="600">
 
-Comfigure the proper payload and IP address for the lhost(attacking machine).
+Configure the proper payload and IP address for the lhost(attacking machine).
 
 <img src="https://github.com/user-attachments/assets/e48a3d1a-48e9-4242-a460-ca3e79ebe385" width="600">
 
