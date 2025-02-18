@@ -86,9 +86,15 @@ Use the "msfconsole" command.
 
 <img src="https://github.com/user-attachments/assets/1d1f7c79-84fe-4cc7-ba86-c9c9d91b68f2" width="600">
 
-Configure the proper payload and IP address for the lhost(attacking machine).
+Configure the proper payload and IP address for the lhost(attacking machine) and enable the handler so that it can wait for the target to respond.
 
-<img src="https://github.com/user-attachments/assets/9f56ecee-cc34-428f-b9f8-f6121a0aa660" width="600">
+<img src="https://github.com/user-attachments/assets/f0f9b358-8552-43fd-bc43-d610e8d43421" width="600">
+
+Create an HTTP Server:
+
+Set up an HTTP Server using python. The target (Windows VM) is going to access and download the malware through its browser. The allows for a connection back to the attacking machine(Kali Linux).
+
+<img src="https://github.com/user-attachments/assets/61c3c1e1-be10-40d0-8b7d-371b05c853e6" width="600">
 
 
 
