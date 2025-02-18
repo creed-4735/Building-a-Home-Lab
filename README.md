@@ -76,25 +76,34 @@ Ensure that the Kali Linux and Windows virtual machines are in their own interna
 
 <img src="https://github.com/user-attachments/assets/aa73d9b2-9663-4ab9-baa8-28c75213aa41" width="600">
 
-   Build the malware using the name of the payload chosen, the IP address of the attacking machine, the file format, and name of the file you want to create. The file will generate the malware that is instructed to connect back to the attacking system. 
+- 4. Build the malware using the name of the payload chosen, the IP address of the attacking machine, the file format, and name of the file you want to create. The file will generate the malware that is instructed to connect back to the attacking system. 
                                                                                                                                                                
 <img src="https://github.com/user-attachments/assets/9e7132e5-ace2-49d0-898d-9e08f3b0ddce" width="600">
 
-Open Metasploit: 
+- 5. Open Metasploit: 
 
 Use the "msfconsole" command.
 
 <img src="https://github.com/user-attachments/assets/1d1f7c79-84fe-4cc7-ba86-c9c9d91b68f2" width="600">
 
-Configure the proper payload and IP address for the lhost(attacking machine) and enable the handler so that it can wait for the target to respond.
+- 6. Configure the proper payload and IP address for the lhost(attacking machine) and enable the handler so that it can wait for the target to respond.
 
 <img src="https://github.com/user-attachments/assets/f0f9b358-8552-43fd-bc43-d610e8d43421" width="600">
 
-Create an HTTP Server:
+- 7. Create an HTTP Server:
 
 Set up an HTTP Server using python. The target (Windows VM) is going to access and download the malware through its browser. The allows for a connection back to the attacking machine(Kali Linux).
 
 <img src="https://github.com/user-attachments/assets/61c3c1e1-be10-40d0-8b7d-371b05c853e6" width="600">
+
+Part 3 - Access the Malware from the Target:
+
+- 1. Go the web browser within the Windows VM:
+
+Click and download the malware file previously created to entice the target (Payrollinfo.pdf).
+     
+<img src="https://github.com/user-attachments/assets/d7f8049c-12d9-4ed5-9c85-c3661b441b1d" width="600">
+
 
 
 
