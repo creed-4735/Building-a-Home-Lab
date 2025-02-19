@@ -32,14 +32,13 @@ Part 1 - Setting Up The Virtual Enviornment
   Install Virtual Box along with all necessary dependencies to include python core and win-32-api for full functionality.
 
 
-  <img src="https://github.com/user-attachments/assets/95ad53f0-2b62-4d82-a817-8358f676238f" width="600">
+  <img src="https://github.com/user-attachments/assets/9e22eed4-6d52-4827-bb1b-b533734b8966" width="600">
 
-- 2. Install Windows 11 into VirtualBox:
+- 2. Install Windows 10 into VirtualBox:
 
-  Download the Windows 11 iso image from a secure source. Configure Windows 11 inside of VirtualBox by paying attention to the available resources of your host system and the requirements of the iso image. 
+  Download the Windows 10 iso image from a secure source. Configure Windows 11 inside of VirtualBox by paying attention to the available resources of your host system and the requirements of the iso image. 
 
-  
-    <img src="https://github.com/user-attachments/assets/13012569-4e51-4bab-a657-5db89ea590a7" width="600">
+    <img src="https://github.com/user-attachments/assets/64d1e0c4-e7c8-45c7-b8a6-ee0842b012e2" width="600">
 
 - 3. Install Kali Linux:
 
@@ -51,7 +50,7 @@ Part 1 - Setting Up The Virtual Enviornment
 
   Splunk will act as the secuirty informantion and event management (SIEM) tool. This tool will allow me to simulate an enterpirse environment by managing log files for analysis, detect possible secuirty threats, track performance metrics, and generate dashboards/reports for data insights.
 
-  <img src="https://github.com/user-attachments/assets/711f36e1-e849-4771-9130-7bdbca2703c0" width="600">
+  <img src="https://github.com/user-attachments/assets/d4a58124-c78e-4363-ae65-131655c05785" width="600">
 
 Part 2 - Simulating an Basic Attack utilizing Kali Linux:
 
