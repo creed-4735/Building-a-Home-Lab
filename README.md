@@ -3,21 +3,20 @@
 ## Objective
 
 
-My goal is to build a personal cybersecurity homelab that simulates real-world environments to practice security hardening, network defense, and incident response. This lab will give me the opportunity to strengthen my hands-on skills with industry tools and technologies while expanding my technical knowledge. By documenting my progress and projects, I can showcase my problem-solving abilities and technical expertise to potential employers.
+My goal is to build a personal cybersecurity homelab that simulates real-world environments to practice virtualization.This lab will give me the opportunity to strengthen my hands-on skills with industry tools and technologies while expanding my technical knowledge. By documenting my progress and projects, I can showcase my problem-solving abilities and technical expertise to potential employers.
 
 ### Skills Learned
 
 - Virtaulization 
 - Advanced understanding of SIEM concepts and practical application.
 - Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
 - Development of critical thinking and problem-solving skills in cybersecurity.
 
 ### Tools Used
 
 
 - VirtualBox
-- Windows 11 iso image
+- Windows 10 iso image
 - Kali Linux
 - Splunk
 - Windows Sysmon
@@ -58,7 +57,8 @@ Part 2 - Simulating an Basic Attack utilizing Kali Linux:
 
 Ensure that the Kali Linux and Windows virtual machines are in their own internal network and statically assign each IP address. This ensures that each virtual machine has connectivity to each other, but not to the internet; keeping the network as a whole safe from malware.
 
-  <img src="https://github.com/user-attachments/assets/eecd058c-af1e-4219-ad81-3265d4407c67" width="600">
+
+  <img src="https://github.com/user-attachments/assets/2831b50b-d7f7-4fdb-ae0a-5066d6583823" width="600">
 
   <img src="https://github.com/user-attachments/assets/3f2013ba-b76e-4218-874e-7900e5efec91" width="600">
 
@@ -67,7 +67,7 @@ Ensure that the Kali Linux and Windows virtual machines are in their own interna
 
   Use "nmap -A 'target-IP' -Pn" to perform a comprehensive assessment of the target system. In this scenario, conducting this scan will detect any open ports on the target device.
 
-   <img src="https://github.com/user-attachments/assets/a1b4a9e0-8148-4137-aae9-370c91066c0d" width="600">
+   <img src="https://github.com/user-attachments/assets/d1c92de2-0452-41ab-9ddf-ac750b1f4d0e" width="600">
 
 - 3. Build the Malware:
 
@@ -87,7 +87,8 @@ Use the "msfconsole" command.
 
 - 6. Configure the proper payload and IP address for the lhost(attacking machine) and enable the handler so that it can wait for the target to respond.
 
-<img src="https://github.com/user-attachments/assets/f0f9b358-8552-43fd-bc43-d610e8d43421" width="600">
+
+<img src="https://github.com/user-attachments/assets/d3058024-0b3a-44ca-9372-a865478d6908" width="600">
 
 - 7. Create an HTTP Server:
 
@@ -103,6 +104,9 @@ Click and download the malware file previously created to entice the target (Pay
      
 <img src="https://github.com/user-attachments/assets/d7f8049c-12d9-4ed5-9c85-c3661b441b1d" width="600">
 
+- 2. Verify Connectivity in Kali Linux:
+
+<img src="https://github.com/user-attachments/assets/0e34284c-2a89-4aa0-b4de-b4de2528a3ed" width="600">
 
 
 
