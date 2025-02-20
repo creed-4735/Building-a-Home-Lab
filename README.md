@@ -106,10 +106,14 @@ Click and download the malware file previously created to entice the target (Pay
 
 - 2. Verify Connectivity in Kali Linux:
 
-<img src="https://github.com/user-attachments/assets/0e34284c-2a89-4aa0-b4de-b4de2528a3ed" width="600">
+<img src="https://github.com/user-attachments/assets/a2b2b82f-321e-48dc-b9f6-af1f672bd6f6" width="600">
+
+- 3. Review Splunk:
+
+  Review and analyze the telemetry given within the Windows 10 VM from downloading the malware.
 
 
-
+<img src="https://github.com/user-attachments/assets/0365bb7a-d1b5-4e75-9320-0f43ca539b1b" width="600">
 
 
 
